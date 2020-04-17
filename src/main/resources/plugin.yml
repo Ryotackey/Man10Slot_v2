@@ -1,0 +1,13 @@
+name: Man10Slot_ver2
+version: ${project.version}
+main: red.man10.man10slot_ver2.Man10Slot_ver2
+commands:
+  mslot:
+    description: Command no setsumei
+    usage: /<command>
+    permission: mslot.setting
+permissions:
+  mslot.use:
+    default: true
+  mslot.setting:
+    default: false
